@@ -1,0 +1,863 @@
+2025-11-21 14:21:38 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 14:21:38 [INFO]: 📖 Environment: development
+2025-11-21 14:21:38 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 15:14:40 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 15:14:40 [INFO]: 📖 Environment: development
+2025-11-21 15:14:40 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 15:15:06 [INFO]: ::1 - - [21/Nov/2025:09:45:06 +0000] "GET /favicon.ico HTTP/1.1" 404 74 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:15:21 [INFO]: ::1 - - [21/Nov/2025:09:45:21 +0000] "GET /health?id=57f252f0-23c1-4ec8-950a-0d3c228ace9e&vscodeBrowserReqId=1763718321623 HTTP/1.1" 200 102 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.106.2 Chrome/138.0.7204.251 Electron/37.7.0 Safari/537.36"
+2025-11-21 15:15:52 [INFO]: User logged in: admin@carrental.com
+2025-11-21 15:15:52 [INFO]: ::1 - - [21/Nov/2025:09:45:52 +0000] "POST /api/auth/login HTTP/1.1" 200 443 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:15:52 [INFO]: ::1 - - [21/Nov/2025:09:45:52 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 404 92 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:15:52 [INFO]: ::1 - - [21/Nov/2025:09:45:52 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 404 92 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:15:52 [INFO]: ::1 - - [21/Nov/2025:09:45:52 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 404 95 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:15:52 [INFO]: ::1 - - [21/Nov/2025:09:45:52 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 404 88 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:15:52 [INFO]: ::1 - - [21/Nov/2025:09:45:52 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 404 95 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:15:52 [INFO]: ::1 - - [21/Nov/2025:09:45:52 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 404 88 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:16:08 [INFO]: ::1 - - [21/Nov/2025:09:46:08 +0000] "GET /api/vehicles?branch_id=&make=&availability=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:16:08 [INFO]: ::1 - - [21/Nov/2025:09:46:08 +0000] "GET /api/vehicles?branch_id=&make=&availability=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:16:08 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:16:08 [INFO]: ::1 - - [21/Nov/2025:09:46:08 +0000] "GET /api/branches HTTP/1.1" 500 448 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:16:08 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:16:08 [INFO]: ::1 - - [21/Nov/2025:09:46:08 +0000] "GET /api/branches HTTP/1.1" 500 448 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:16:10 [INFO]: ::1 - - [21/Nov/2025:09:46:10 +0000] "GET /api/vehicles?branch_id=&make=&availability=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:16:10 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:16:10 [INFO]: ::1 - - [21/Nov/2025:09:46:10 +0000] "GET /api/branches HTTP/1.1" 500 448 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:16:10 [INFO]: ::1 - - [21/Nov/2025:09:46:10 +0000] "GET /api/vehicles?branch_id=&make=&availability=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:16:10 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:16:10 [INFO]: ::1 - - [21/Nov/2025:09:46:10 +0000] "GET /api/branches HTTP/1.1" 500 448 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:16:11 [INFO]: ::1 - - [21/Nov/2025:09:46:11 +0000] "GET /api/vehicles?branch_id=&make=&availability=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:16:11 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:16:11 [INFO]: ::1 - - [21/Nov/2025:09:46:11 +0000] "GET /api/branches HTTP/1.1" 500 448 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:16:11 [INFO]: ::1 - - [21/Nov/2025:09:46:11 +0000] "GET /api/vehicles?branch_id=&make=&availability=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:16:11 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:16:11 [INFO]: ::1 - - [21/Nov/2025:09:46:11 +0000] "GET /api/branches HTTP/1.1" 500 448 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:16:11 [INFO]: ::1 - - [21/Nov/2025:09:46:11 +0000] "GET /api/vehicles?branch_id=&make=&availability=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:16:11 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:16:11 [INFO]: ::1 - - [21/Nov/2025:09:46:11 +0000] "GET /api/branches HTTP/1.1" 500 448 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:16:12 [INFO]: ::1 - - [21/Nov/2025:09:46:12 +0000] "GET /api/reservations/my HTTP/1.1" 200 36 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:16:12 [INFO]: ::1 - - [21/Nov/2025:09:46:12 +0000] "GET /api/reservations/my HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:16:43 [INFO]: User logged in: admin@carrental.com
+2025-11-21 15:16:43 [INFO]: ::1 - - [21/Nov/2025:09:46:43 +0000] "POST /api/auth/login HTTP/1.1" 200 443 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:16:43 [INFO]: ::1 - - [21/Nov/2025:09:46:43 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 404 92 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:16:43 [INFO]: ::1 - - [21/Nov/2025:09:46:43 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 404 95 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:16:43 [INFO]: ::1 - - [21/Nov/2025:09:46:43 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 404 92 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:16:43 [INFO]: ::1 - - [21/Nov/2025:09:46:43 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 404 88 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:16:43 [INFO]: ::1 - - [21/Nov/2025:09:46:43 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 404 95 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:16:43 [INFO]: ::1 - - [21/Nov/2025:09:46:43 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 404 88 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:16:48 [INFO]: ::1 - - [21/Nov/2025:09:46:48 +0000] "GET /api/vehicles?branch_id=&make=&availability=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:16:48 [INFO]: ::1 - - [21/Nov/2025:09:46:48 +0000] "GET /api/vehicles?branch_id=&make=&availability=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:16:48 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:16:48 [INFO]: ::1 - - [21/Nov/2025:09:46:48 +0000] "GET /api/branches HTTP/1.1" 500 448 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:16:48 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:16:48 [INFO]: ::1 - - [21/Nov/2025:09:46:48 +0000] "GET /api/branches HTTP/1.1" 500 448 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:16:50 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:16:50 [INFO]: ::1 - - [21/Nov/2025:09:46:50 +0000] "GET /api/branches HTTP/1.1" 500 448 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:16:50 [ERROR]: Error 500: column v.availability does not exist
+error: column v.availability does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\vehicles.js:121:20
+2025-11-21 15:16:50 [INFO]: ::1 - - [21/Nov/2025:09:46:50 +0000] "GET /api/vehicles HTTP/1.1" 500 441 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:16:50 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:16:50 [INFO]: ::1 - - [21/Nov/2025:09:46:50 +0000] "GET /api/branches HTTP/1.1" 500 448 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:16:50 [ERROR]: Error 500: column v.availability does not exist
+error: column v.availability does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\vehicles.js:121:20
+2025-11-21 15:16:50 [INFO]: ::1 - - [21/Nov/2025:09:46:50 +0000] "GET /api/vehicles HTTP/1.1" 500 441 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:16:51 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:16:51 [INFO]: ::1 - - [21/Nov/2025:09:46:51 +0000] "GET /api/branches HTTP/1.1" 500 448 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:16:51 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:16:51 [INFO]: ::1 - - [21/Nov/2025:09:46:51 +0000] "GET /api/branches HTTP/1.1" 500 448 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:16:55 [INFO]: ::1 - - [21/Nov/2025:09:46:55 +0000] "GET /api/reservations/my HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:16:55 [INFO]: ::1 - - [21/Nov/2025:09:46:55 +0000] "GET /api/reservations/my HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:17:04 [INFO]: ::1 - - [21/Nov/2025:09:47:04 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 404 95 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:17:04 [INFO]: ::1 - - [21/Nov/2025:09:47:04 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 404 92 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:17:04 [INFO]: ::1 - - [21/Nov/2025:09:47:04 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 404 95 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:17:04 [INFO]: ::1 - - [21/Nov/2025:09:47:04 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 404 92 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:17:04 [INFO]: ::1 - - [21/Nov/2025:09:47:04 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 404 88 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:17:04 [INFO]: ::1 - - [21/Nov/2025:09:47:04 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 404 88 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:17:08 [INFO]: ::1 - - [21/Nov/2025:09:47:08 +0000] "GET /api/vehicles?branch_id=&make=&availability=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:17:08 [INFO]: ::1 - - [21/Nov/2025:09:47:08 +0000] "GET /api/vehicles?branch_id=&make=&availability=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:17:08 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:17:08 [INFO]: ::1 - - [21/Nov/2025:09:47:08 +0000] "GET /api/branches HTTP/1.1" 500 448 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:17:08 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:17:08 [INFO]: ::1 - - [21/Nov/2025:09:47:08 +0000] "GET /api/branches HTTP/1.1" 500 448 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:17:10 [INFO]: ::1 - - [21/Nov/2025:09:47:10 +0000] "GET /api/vehicles?branch_id=&make=&availability=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:17:10 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:17:10 [INFO]: ::1 - - [21/Nov/2025:09:47:10 +0000] "GET /api/branches HTTP/1.1" 500 448 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:17:10 [INFO]: ::1 - - [21/Nov/2025:09:47:10 +0000] "GET /api/vehicles?branch_id=&make=&availability=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:17:10 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:17:10 [INFO]: ::1 - - [21/Nov/2025:09:47:10 +0000] "GET /api/branches HTTP/1.1" 500 448 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:17:11 [INFO]: ::1 - - [21/Nov/2025:09:47:11 +0000] "GET /api/vehicles?branch_id=&make=&availability=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:17:11 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:17:11 [INFO]: ::1 - - [21/Nov/2025:09:47:11 +0000] "GET /api/branches HTTP/1.1" 500 448 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:17:33 [INFO]: ::1 - - [21/Nov/2025:09:47:33 +0000] "POST /api/auth/login HTTP/1.1" 401 55 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:17:54 [INFO]: ::1 - - [21/Nov/2025:09:47:54 +0000] "POST /api/auth/login HTTP/1.1" 401 55 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:19:33 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 15:19:33 [INFO]: 📖 Environment: development
+2025-11-21 15:19:33 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 15:19:34 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 15:19:34 [INFO]: 📖 Environment: development
+2025-11-21 15:19:34 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 15:19:35 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 15:19:35 [INFO]: 📖 Environment: development
+2025-11-21 15:19:35 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 15:35:51 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 15:35:51 [INFO]: 📖 Environment: development
+2025-11-21 15:35:51 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 15:36:08 [INFO]: SIGINT received. Shutting down gracefully...
+2025-11-21 15:36:16 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 15:36:16 [INFO]: 📖 Environment: development
+2025-11-21 15:36:16 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 15:36:35 [INFO]: SIGINT received. Shutting down gracefully...
+2025-11-21 15:38:10 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 15:38:10 [INFO]: 📖 Environment: development
+2025-11-21 15:38:10 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 15:38:27 [INFO]: SIGINT received. Shutting down gracefully...
+2025-11-21 15:39:16 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 15:39:16 [INFO]: 📖 Environment: development
+2025-11-21 15:39:16 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 15:40:28 [INFO]: User logged in: alice.cooper@email.com
+2025-11-21 15:40:28 [INFO]: ::1 - - [21/Nov/2025:10:10:28 +0000] "POST /api/auth/login HTTP/1.1" 200 464 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:40:28 [INFO]: ::1 - - [21/Nov/2025:10:10:28 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 404 92 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:40:28 [INFO]: ::1 - - [21/Nov/2025:10:10:28 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 404 92 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:40:28 [INFO]: ::1 - - [21/Nov/2025:10:10:28 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 404 88 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:40:28 [INFO]: ::1 - - [21/Nov/2025:10:10:28 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 404 95 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:40:29 [INFO]: ::1 - - [21/Nov/2025:10:10:29 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 404 88 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:40:29 [INFO]: ::1 - - [21/Nov/2025:10:10:29 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 404 95 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:40:40 [INFO]: ::1 - - [21/Nov/2025:10:10:40 +0000] "GET /api/vehicles?branch_id=&make=&availability=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:40:40 [INFO]: ::1 - - [21/Nov/2025:10:10:40 +0000] "GET /api/vehicles?branch_id=&make=&availability=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:40:40 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:40:40 [INFO]: ::1 - - [21/Nov/2025:10:10:40 +0000] "GET /api/branches HTTP/1.1" 500 448 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:40:40 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:40:40 [INFO]: ::1 - - [21/Nov/2025:10:10:40 +0000] "GET /api/branches HTTP/1.1" 500 448 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:40:42 [INFO]: ::1 - - [21/Nov/2025:10:10:42 +0000] "GET /api/reservations/my HTTP/1.1" 200 797 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:40:42 [INFO]: ::1 - - [21/Nov/2025:10:10:42 +0000] "GET /api/reservations/my HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:40:52 [INFO]: ::1 - - [21/Nov/2025:10:10:52 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 404 92 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:40:52 [INFO]: ::1 - - [21/Nov/2025:10:10:52 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 404 92 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:40:52 [INFO]: ::1 - - [21/Nov/2025:10:10:52 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 404 88 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:40:52 [INFO]: ::1 - - [21/Nov/2025:10:10:52 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 404 88 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:40:52 [INFO]: ::1 - - [21/Nov/2025:10:10:52 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 404 95 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:40:52 [INFO]: ::1 - - [21/Nov/2025:10:10:52 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 404 95 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:40:57 [INFO]: ::1 - - [21/Nov/2025:10:10:57 +0000] "GET /api/vehicles?branch_id=&make=&availability=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:40:57 [INFO]: ::1 - - [21/Nov/2025:10:10:57 +0000] "GET /api/vehicles?branch_id=&make=&availability=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:40:57 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:40:57 [INFO]: ::1 - - [21/Nov/2025:10:10:57 +0000] "GET /api/branches HTTP/1.1" 500 448 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:40:57 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:40:57 [INFO]: ::1 - - [21/Nov/2025:10:10:57 +0000] "GET /api/branches HTTP/1.1" 500 448 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:40:58 [INFO]: ::1 - - [21/Nov/2025:10:10:58 +0000] "GET /api/vehicles?branch_id=&make=&availability=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:40:58 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:40:58 [INFO]: ::1 - - [21/Nov/2025:10:10:58 +0000] "GET /api/branches HTTP/1.1" 500 448 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:40:58 [INFO]: ::1 - - [21/Nov/2025:10:10:58 +0000] "GET /api/vehicles?branch_id=&make=&availability=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:40:58 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:40:58 [INFO]: ::1 - - [21/Nov/2025:10:10:58 +0000] "GET /api/branches HTTP/1.1" 500 448 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:40:58 [INFO]: ::1 - - [21/Nov/2025:10:10:58 +0000] "GET /api/vehicles?branch_id=&make=&availability=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:40:59 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:40:59 [INFO]: ::1 - - [21/Nov/2025:10:10:59 +0000] "GET /api/branches HTTP/1.1" 500 448 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:41:17 [INFO]: User logged in: admin@carrental.com
+2025-11-21 15:41:17 [INFO]: ::1 - - [21/Nov/2025:10:11:17 +0000] "POST /api/auth/login HTTP/1.1" 200 443 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:41:17 [INFO]: ::1 - - [21/Nov/2025:10:11:17 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 404 92 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:41:17 [INFO]: ::1 - - [21/Nov/2025:10:11:17 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 404 92 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:41:17 [INFO]: ::1 - - [21/Nov/2025:10:11:17 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 404 95 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:41:17 [INFO]: ::1 - - [21/Nov/2025:10:11:17 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 404 88 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:41:17 [INFO]: ::1 - - [21/Nov/2025:10:11:17 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 404 95 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:41:17 [INFO]: ::1 - - [21/Nov/2025:10:11:17 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 404 88 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:41:20 [INFO]: ::1 - - [21/Nov/2025:10:11:20 +0000] "GET /api/vehicles?branch_id=&make=&availability=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:41:20 [INFO]: ::1 - - [21/Nov/2025:10:11:20 +0000] "GET /api/vehicles?branch_id=&make=&availability=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:41:20 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:41:20 [INFO]: ::1 - - [21/Nov/2025:10:11:20 +0000] "GET /api/branches HTTP/1.1" 500 448 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:41:21 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:41:21 [INFO]: ::1 - - [21/Nov/2025:10:11:21 +0000] "GET /api/branches HTTP/1.1" 500 448 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:41:22 [INFO]: ::1 - - [21/Nov/2025:10:11:22 +0000] "GET /api/vehicles?branch_id=&make=&availability=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:41:22 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:41:22 [INFO]: ::1 - - [21/Nov/2025:10:11:22 +0000] "GET /api/branches HTTP/1.1" 500 448 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:44:11 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 15:44:11 [INFO]: 📖 Environment: development
+2025-11-21 15:44:11 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 15:44:14 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 15:44:14 [INFO]: 📖 Environment: development
+2025-11-21 15:44:14 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 15:44:17 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 15:44:17 [INFO]: 📖 Environment: development
+2025-11-21 15:44:17 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 15:44:20 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 15:44:20 [INFO]: 📖 Environment: development
+2025-11-21 15:44:20 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 15:44:24 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 15:44:24 [INFO]: 📖 Environment: development
+2025-11-21 15:44:24 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 15:45:07 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 15:45:07 [INFO]: 📖 Environment: development
+2025-11-21 15:45:07 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 15:45:38 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 15:45:38 [INFO]: 📖 Environment: development
+2025-11-21 15:45:38 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 15:45:48 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 15:45:48 [INFO]: 📖 Environment: development
+2025-11-21 15:45:48 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 15:46:10 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 15:46:10 [INFO]: 📖 Environment: development
+2025-11-21 15:46:10 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 15:46:13 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 15:46:13 [INFO]: 📖 Environment: development
+2025-11-21 15:46:13 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 15:46:18 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 15:46:18 [INFO]: 📖 Environment: development
+2025-11-21 15:46:18 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 15:46:19 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 15:46:19 [INFO]: 📖 Environment: development
+2025-11-21 15:46:19 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 15:49:54 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 15:49:54 [INFO]: 📖 Environment: development
+2025-11-21 15:49:54 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 15:49:55 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 15:49:55 [INFO]: 📖 Environment: development
+2025-11-21 15:49:55 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 15:50:00 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 15:50:00 [INFO]: 📖 Environment: development
+2025-11-21 15:50:00 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 15:50:04 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 15:50:04 [INFO]: 📖 Environment: development
+2025-11-21 15:50:04 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 15:50:08 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 15:50:08 [INFO]: 📖 Environment: development
+2025-11-21 15:50:08 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 15:50:11 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 15:50:11 [INFO]: 📖 Environment: development
+2025-11-21 15:50:11 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 15:50:18 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 15:50:18 [INFO]: 📖 Environment: development
+2025-11-21 15:50:18 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 15:50:23 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 15:50:23 [INFO]: 📖 Environment: development
+2025-11-21 15:50:23 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 15:50:30 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 15:50:30 [INFO]: 📖 Environment: development
+2025-11-21 15:50:30 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 15:51:10 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 15:51:10 [INFO]: 📖 Environment: development
+2025-11-21 15:51:10 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 15:52:51 [INFO]: ::1 - - [21/Nov/2025:10:22:51 +0000] "GET /favicon.ico HTTP/1.1" 404 74 "http://localhost:3002/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 15:53:26 [INFO]: ::1 - - [21/Nov/2025:10:23:26 +0000] "GET /health HTTP/1.1" 200 103 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.7019"
+2025-11-21 15:55:50 [INFO]: ::1 - - [21/Nov/2025:10:25:50 +0000] "GET /health HTTP/1.1" 200 103 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.7019"
+2025-11-21 15:55:59 [INFO]: ::1 - - [21/Nov/2025:10:25:59 +0000] "POST /api/auth/login HTTP/1.1" 401 55 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.7019"
+2025-11-21 16:00:08 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 16:00:08 [INFO]: 📖 Environment: development
+2025-11-21 16:00:08 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 16:01:07 [INFO]: User logged in: alice.cooper@email.com
+2025-11-21 16:01:07 [INFO]: ::1 - - [21/Nov/2025:10:31:07 +0000] "POST /api/auth/login HTTP/1.1" 200 464 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:01:07 [INFO]: ::1 - - [21/Nov/2025:10:31:07 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 404 92 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:01:07 [INFO]: ::1 - - [21/Nov/2025:10:31:07 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 404 92 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:01:07 [INFO]: ::1 - - [21/Nov/2025:10:31:07 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 404 95 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:01:07 [INFO]: ::1 - - [21/Nov/2025:10:31:07 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 404 95 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:01:07 [INFO]: ::1 - - [21/Nov/2025:10:31:07 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 404 88 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:01:07 [INFO]: ::1 - - [21/Nov/2025:10:31:07 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 404 88 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:01:12 [INFO]: ::1 - - [21/Nov/2025:10:31:12 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:01:12 [INFO]: ::1 - - [21/Nov/2025:10:31:12 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:01:12 [INFO]: ::1 - - [21/Nov/2025:10:31:12 +0000] "GET /api/branches HTTP/1.1" 200 1394 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:01:12 [INFO]: ::1 - - [21/Nov/2025:10:31:12 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:01:13 [INFO]: ::1 - - [21/Nov/2025:10:31:13 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:01:13 [INFO]: ::1 - - [21/Nov/2025:10:31:13 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:01:14 [INFO]: ::1 - - [21/Nov/2025:10:31:14 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:01:14 [INFO]: ::1 - - [21/Nov/2025:10:31:14 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:01:14 [INFO]: ::1 - - [21/Nov/2025:10:31:14 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:01:14 [INFO]: ::1 - - [21/Nov/2025:10:31:14 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:01:14 [INFO]: ::1 - - [21/Nov/2025:10:31:14 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:01:14 [INFO]: ::1 - - [21/Nov/2025:10:31:14 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:01:15 [INFO]: ::1 - - [21/Nov/2025:10:31:15 +0000] "GET /api/reservations/my HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:01:15 [INFO]: ::1 - - [21/Nov/2025:10:31:15 +0000] "GET /api/reservations/my HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:02:29 [INFO]: ::1 - - [21/Nov/2025:10:32:29 +0000] "GET /health HTTP/1.1" 200 103 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.7019"
+2025-11-21 16:02:48 [INFO]: User logged in: alice.cooper@email.com
+2025-11-21 16:02:48 [INFO]: ::1 - - [21/Nov/2025:10:32:48 +0000] "POST /api/auth/login HTTP/1.1" 200 464 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:02:48 [INFO]: ::1 - - [21/Nov/2025:10:32:48 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 404 92 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:02:48 [INFO]: ::1 - - [21/Nov/2025:10:32:48 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 404 95 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:02:48 [INFO]: ::1 - - [21/Nov/2025:10:32:48 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 404 88 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:02:48 [INFO]: ::1 - - [21/Nov/2025:10:32:48 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 404 92 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:02:48 [INFO]: ::1 - - [21/Nov/2025:10:32:48 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 404 95 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:02:48 [INFO]: ::1 - - [21/Nov/2025:10:32:48 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 404 88 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:03:05 [INFO]: ::1 - - [21/Nov/2025:10:33:05 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:03:05 [INFO]: ::1 - - [21/Nov/2025:10:33:05 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:03:05 [INFO]: ::1 - - [21/Nov/2025:10:33:05 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:03:05 [INFO]: ::1 - - [21/Nov/2025:10:33:05 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:03:07 [INFO]: ::1 - - [21/Nov/2025:10:33:07 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:03:07 [INFO]: ::1 - - [21/Nov/2025:10:33:07 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:03:07 [INFO]: ::1 - - [21/Nov/2025:10:33:07 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:03:07 [INFO]: ::1 - - [21/Nov/2025:10:33:07 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:03:07 [INFO]: ::1 - - [21/Nov/2025:10:33:07 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:03:07 [INFO]: ::1 - - [21/Nov/2025:10:33:07 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:03:07 [INFO]: ::1 - - [21/Nov/2025:10:33:07 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:03:07 [INFO]: ::1 - - [21/Nov/2025:10:33:07 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:03:07 [INFO]: ::1 - - [21/Nov/2025:10:33:07 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:03:07 [INFO]: ::1 - - [21/Nov/2025:10:33:07 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:03:08 [INFO]: ::1 - - [21/Nov/2025:10:33:08 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:03:08 [INFO]: ::1 - - [21/Nov/2025:10:33:08 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:03:08 [INFO]: ::1 - - [21/Nov/2025:10:33:08 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:03:08 [INFO]: ::1 - - [21/Nov/2025:10:33:08 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:03:37 [INFO]: User logged in: admin@carrental.com
+2025-11-21 16:03:37 [INFO]: ::1 - - [21/Nov/2025:10:33:37 +0000] "POST /api/auth/login HTTP/1.1" 200 443 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:03:37 [INFO]: ::1 - - [21/Nov/2025:10:33:37 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 404 92 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:03:37 [INFO]: ::1 - - [21/Nov/2025:10:33:37 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 404 95 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:03:37 [INFO]: ::1 - - [21/Nov/2025:10:33:37 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 404 92 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:03:37 [INFO]: ::1 - - [21/Nov/2025:10:33:37 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 404 88 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:03:37 [INFO]: ::1 - - [21/Nov/2025:10:33:37 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 404 95 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:03:37 [INFO]: ::1 - - [21/Nov/2025:10:33:37 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 404 88 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:03:40 [INFO]: ::1 - - [21/Nov/2025:10:33:40 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:03:40 [INFO]: ::1 - - [21/Nov/2025:10:33:40 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:03:40 [INFO]: ::1 - - [21/Nov/2025:10:33:40 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:03:40 [INFO]: ::1 - - [21/Nov/2025:10:33:40 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:03:41 [INFO]: ::1 - - [21/Nov/2025:10:33:41 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:03:41 [INFO]: ::1 - - [21/Nov/2025:10:33:41 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:03:41 [INFO]: ::1 - - [21/Nov/2025:10:33:41 +0000] "GET /api/vehicles HTTP/1.1" 200 5724 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:03:41 [INFO]: ::1 - - [21/Nov/2025:10:33:41 +0000] "GET /api/vehicles HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:04:27 [INFO]: ::1 - - [21/Nov/2025:10:34:27 +0000] "POST /api/auth/login HTTP/1.1" 401 55 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:05:32 [INFO]: ::1 - - [21/Nov/2025:10:35:32 +0000] "GET /api/vehicles HTTP/1.1" 401 54 "-" "curl/8.16.0"
+2025-11-21 16:05:37 [INFO]: ::1 - - [21/Nov/2025:10:35:37 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 401 54 "-" "curl/8.16.0"
+2025-11-21 16:05:54 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 16:05:54 [INFO]: 📖 Environment: development
+2025-11-21 16:05:54 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 16:05:57 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 16:05:57 [INFO]: 📖 Environment: development
+2025-11-21 16:05:57 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 16:06:18 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 16:06:18 [INFO]: 📖 Environment: development
+2025-11-21 16:06:18 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 16:06:21 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 16:06:21 [INFO]: 📖 Environment: development
+2025-11-21 16:06:21 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 16:06:24 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 16:06:24 [INFO]: 📖 Environment: development
+2025-11-21 16:06:24 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 16:06:26 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 16:06:26 [INFO]: 📖 Environment: development
+2025-11-21 16:06:26 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 16:06:59 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 16:06:59 [INFO]: 📖 Environment: development
+2025-11-21 16:06:59 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 16:07:04 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 16:07:04 [INFO]: 📖 Environment: development
+2025-11-21 16:07:04 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 16:07:10 [WARN]: Invalid token attempt: jwt malformed
+2025-11-21 16:07:10 [INFO]: ::1 - - [21/Nov/2025:10:37:10 +0000] "GET /api/vehicles?status=all HTTP/1.1" 403 54 "-" "curl/8.16.0"
+2025-11-21 16:08:56 [INFO]: ::1 - - [21/Nov/2025:10:38:56 +0000] "GET /favicon.ico HTTP/1.1" 404 74 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:09:49 [INFO]: ::1 - - [21/Nov/2025:10:39:49 +0000] "GET /health HTTP/1.1" 200 103 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.7019"
+2025-11-21 16:10:32 [INFO]: ::1 - - [21/Nov/2025:10:40:32 +0000] "POST /api/auth/login HTTP/1.1" 401 55 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:11:14 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-21 16:11:14 [INFO]: 📖 Environment: development
+2025-11-21 16:11:14 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-21 16:11:46 [INFO]: User logged in: admin@carrental.com
+2025-11-21 16:11:46 [INFO]: ::1 - - [21/Nov/2025:10:41:46 +0000] "POST /api/auth/login HTTP/1.1" 200 443 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:11:46 [INFO]: ::1 - - [21/Nov/2025:10:41:46 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 200 425 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:11:46 [INFO]: ::1 - - [21/Nov/2025:10:41:46 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:11:46 [ERROR]: Error 500: column "total_amount" does not exist
+error: column "total_amount" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\dashboard.js:363:20
+2025-11-21 16:11:46 [INFO]: ::1 - - [21/Nov/2025:10:41:46 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 500 446 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:11:46 [INFO]: ::1 - - [21/Nov/2025:10:41:46 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 200 61 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:11:46 [ERROR]: Error 500: column "total_amount" does not exist
+error: column "total_amount" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\dashboard.js:363:20
+2025-11-21 16:11:46 [INFO]: ::1 - - [21/Nov/2025:10:41:46 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 500 446 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:11:46 [INFO]: ::1 - - [21/Nov/2025:10:41:46 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:11:48 [INFO]: ::1 - - [21/Nov/2025:10:41:48 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:11:48 [INFO]: ::1 - - [21/Nov/2025:10:41:48 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:11:48 [INFO]: ::1 - - [21/Nov/2025:10:41:48 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:11:48 [INFO]: ::1 - - [21/Nov/2025:10:41:48 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:11:49 [INFO]: ::1 - - [21/Nov/2025:10:41:49 +0000] "GET /api/reservations/my HTTP/1.1" 200 36 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:11:49 [INFO]: ::1 - - [21/Nov/2025:10:41:49 +0000] "GET /api/reservations/my HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:11:55 [INFO]: ::1 - - [21/Nov/2025:10:41:55 +0000] "GET /api/vehicles HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:11:55 [INFO]: ::1 - - [21/Nov/2025:10:41:55 +0000] "GET /api/vehicles HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:11:55 [INFO]: ::1 - - [21/Nov/2025:10:41:55 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:11:55 [INFO]: ::1 - - [21/Nov/2025:10:41:55 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:12:00 [INFO]: ::1 - - [21/Nov/2025:10:42:00 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:12:00 [INFO]: ::1 - - [21/Nov/2025:10:42:00 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:12:08 [INFO]: ::1 - - [21/Nov/2025:10:42:08 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:12:08 [INFO]: ::1 - - [21/Nov/2025:10:42:08 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:12:08 [INFO]: ::1 - - [21/Nov/2025:10:42:08 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:12:08 [INFO]: ::1 - - [21/Nov/2025:10:42:08 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:12:10 [INFO]: ::1 - - [21/Nov/2025:10:42:10 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:12:10 [INFO]: ::1 - - [21/Nov/2025:10:42:10 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:12:11 [INFO]: ::1 - - [21/Nov/2025:10:42:11 +0000] "GET /api/reservations/my HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-21 16:12:11 [INFO]: ::1 - - [21/Nov/2025:10:42:11 +0000] "GET /api/reservations/my HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:16:27 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-22 08:16:27 [INFO]: 📖 Environment: development
+2025-11-22 08:16:27 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-22 08:16:54 [INFO]: ::1 - - [22/Nov/2025:02:46:54 +0000] "GET /favicon.ico HTTP/1.1" 404 74 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:17:06 [INFO]: User logged in: admin@carrental.com
+2025-11-22 08:17:06 [INFO]: ::1 - - [22/Nov/2025:02:47:06 +0000] "POST /api/auth/login HTTP/1.1" 200 443 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:17:06 [INFO]: ::1 - - [22/Nov/2025:02:47:06 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:17:06 [INFO]: ::1 - - [22/Nov/2025:02:47:06 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:17:07 [INFO]: ::1 - - [22/Nov/2025:02:47:07 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:17:07 [ERROR]: Error 500: column "total_amount" does not exist
+error: column "total_amount" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\dashboard.js:363:20
+2025-11-22 08:17:07 [INFO]: ::1 - - [22/Nov/2025:02:47:07 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 500 446 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:17:07 [INFO]: ::1 - - [22/Nov/2025:02:47:07 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:17:07 [ERROR]: Error 500: column "total_amount" does not exist
+error: column "total_amount" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\dashboard.js:363:20
+2025-11-22 08:17:07 [INFO]: ::1 - - [22/Nov/2025:02:47:07 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 500 446 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:17:09 [INFO]: ::1 - - [22/Nov/2025:02:47:09 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:17:09 [INFO]: ::1 - - [22/Nov/2025:02:47:09 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:17:09 [INFO]: ::1 - - [22/Nov/2025:02:47:09 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:17:09 [INFO]: ::1 - - [22/Nov/2025:02:47:09 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:17:56 [INFO]: ::1 - - [22/Nov/2025:02:47:56 +0000] "GET /api/reservations/my HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:17:56 [INFO]: ::1 - - [22/Nov/2025:02:47:56 +0000] "GET /api/reservations/my HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:19:17 [INFO]: ::1 - - [22/Nov/2025:02:49:17 +0000] "GET /health HTTP/1.1" 200 103 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.7019"
+2025-11-22 08:21:42 [INFO]: User logged in: admin@carrental.com
+2025-11-22 08:21:42 [INFO]: ::1 - - [22/Nov/2025:02:51:42 +0000] "POST /api/auth/login HTTP/1.1" 200 443 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:21:42 [INFO]: ::1 - - [22/Nov/2025:02:51:42 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:21:42 [INFO]: ::1 - - [22/Nov/2025:02:51:42 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:21:42 [ERROR]: Error 500: column "total_amount" does not exist
+error: column "total_amount" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\dashboard.js:363:20
+2025-11-22 08:21:42 [INFO]: ::1 - - [22/Nov/2025:02:51:42 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 500 446 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:21:42 [INFO]: ::1 - - [22/Nov/2025:02:51:42 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:21:42 [ERROR]: Error 500: column "total_amount" does not exist
+error: column "total_amount" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\dashboard.js:363:20
+2025-11-22 08:21:42 [INFO]: ::1 - - [22/Nov/2025:02:51:42 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 500 446 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:21:42 [INFO]: ::1 - - [22/Nov/2025:02:51:42 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:21:44 [INFO]: ::1 - - [22/Nov/2025:02:51:44 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:21:44 [INFO]: ::1 - - [22/Nov/2025:02:51:44 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:21:44 [INFO]: ::1 - - [22/Nov/2025:02:51:44 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:21:44 [INFO]: ::1 - - [22/Nov/2025:02:51:44 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:21:46 [INFO]: ::1 - - [22/Nov/2025:02:51:46 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:21:46 [INFO]: ::1 - - [22/Nov/2025:02:51:46 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:21:47 [INFO]: ::1 - - [22/Nov/2025:02:51:47 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:21:47 [INFO]: ::1 - - [22/Nov/2025:02:51:47 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:21:48 [INFO]: ::1 - - [22/Nov/2025:02:51:48 +0000] "GET /api/reservations/my HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:21:48 [INFO]: ::1 - - [22/Nov/2025:02:51:48 +0000] "GET /api/reservations/my HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:21:50 [INFO]: ::1 - - [22/Nov/2025:02:51:50 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:21:50 [INFO]: ::1 - - [22/Nov/2025:02:51:50 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:21:50 [INFO]: ::1 - - [22/Nov/2025:02:51:50 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:21:50 [INFO]: ::1 - - [22/Nov/2025:02:51:50 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:21:51 [INFO]: ::1 - - [22/Nov/2025:02:51:51 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:21:51 [INFO]: ::1 - - [22/Nov/2025:02:51:51 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:21:53 [INFO]: ::1 - - [22/Nov/2025:02:51:53 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:21:53 [INFO]: ::1 - - [22/Nov/2025:02:51:53 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:21:53 [INFO]: ::1 - - [22/Nov/2025:02:51:53 +0000] "GET /api/vehicles HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:21:53 [INFO]: ::1 - - [22/Nov/2025:02:51:53 +0000] "GET /api/vehicles HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:22:10 [ERROR]: Error 500: column "total_amount" does not exist
+error: column "total_amount" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\dashboard.js:363:20
+2025-11-22 08:22:10 [INFO]: ::1 - - [22/Nov/2025:02:52:10 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 500 446 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:22:10 [INFO]: ::1 - - [22/Nov/2025:02:52:10 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:22:10 [ERROR]: Error 500: column "total_amount" does not exist
+error: column "total_amount" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\dashboard.js:363:20
+2025-11-22 08:22:10 [INFO]: ::1 - - [22/Nov/2025:02:52:10 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 500 446 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:22:10 [INFO]: ::1 - - [22/Nov/2025:02:52:10 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:22:10 [INFO]: ::1 - - [22/Nov/2025:02:52:10 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:22:10 [INFO]: ::1 - - [22/Nov/2025:02:52:10 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:22:14 [INFO]: ::1 - - [22/Nov/2025:02:52:14 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:22:15 [INFO]: ::1 - - [22/Nov/2025:02:52:15 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:22:15 [INFO]: ::1 - - [22/Nov/2025:02:52:15 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:22:15 [INFO]: ::1 - - [22/Nov/2025:02:52:15 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:22:21 [INFO]: ::1 - - [22/Nov/2025:02:52:21 +0000] "GET /api/vehicles HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:22:21 [INFO]: ::1 - - [22/Nov/2025:02:52:21 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:22:21 [INFO]: ::1 - - [22/Nov/2025:02:52:21 +0000] "GET /api/vehicles HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:22:21 [INFO]: ::1 - - [22/Nov/2025:02:52:21 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:23:48 [INFO]: ::1 - - [22/Nov/2025:02:53:48 +0000] "GET /api/vehicles HTTP/1.1" 401 54 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.7019"
+2025-11-22 08:25:31 [INFO]: ::1 - - [22/Nov/2025:02:55:31 +0000] "GET /api/health HTTP/1.1" 404 73 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.7019"
+2025-11-22 08:25:53 [INFO]: ::1 - - [22/Nov/2025:02:55:53 +0000] "GET /health HTTP/1.1" 200 103 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.7019"
+2025-11-22 08:27:54 [INFO]: SIGINT received. Shutting down gracefully...
+2025-11-22 08:28:02 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-22 08:28:02 [INFO]: 📖 Environment: development
+2025-11-22 08:28:02 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-22 08:28:14 [INFO]: ::1 - - [22/Nov/2025:02:58:14 +0000] "GET /favicon.ico HTTP/1.1" 404 74 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:28:31 [INFO]: User logged in: admin@carrental.com
+2025-11-22 08:28:31 [INFO]: ::1 - - [22/Nov/2025:02:58:31 +0000] "POST /api/auth/login HTTP/1.1" 200 443 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:28:31 [INFO]: ::1 - - [22/Nov/2025:02:58:31 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:28:31 [INFO]: ::1 - - [22/Nov/2025:02:58:31 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:28:31 [INFO]: ::1 - - [22/Nov/2025:02:58:31 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:28:31 [ERROR]: Error 500: column "total_amount" does not exist
+error: column "total_amount" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\dashboard.js:363:20
+2025-11-22 08:28:31 [INFO]: ::1 - - [22/Nov/2025:02:58:31 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 500 446 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:28:31 [INFO]: ::1 - - [22/Nov/2025:02:58:31 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:28:31 [ERROR]: Error 500: column "total_amount" does not exist
+error: column "total_amount" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\dashboard.js:363:20
+2025-11-22 08:28:31 [INFO]: ::1 - - [22/Nov/2025:02:58:31 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 500 446 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:28:33 [INFO]: ::1 - - [22/Nov/2025:02:58:33 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:28:33 [INFO]: ::1 - - [22/Nov/2025:02:58:33 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:28:33 [INFO]: ::1 - - [22/Nov/2025:02:58:33 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:28:33 [INFO]: ::1 - - [22/Nov/2025:02:58:33 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:28:35 [INFO]: ::1 - - [22/Nov/2025:02:58:35 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:28:35 [INFO]: ::1 - - [22/Nov/2025:02:58:35 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:28:36 [INFO]: ::1 - - [22/Nov/2025:02:58:36 +0000] "GET /api/reservations/my HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:28:36 [INFO]: ::1 - - [22/Nov/2025:02:58:36 +0000] "GET /api/reservations/my HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:28:38 [INFO]: ::1 - - [22/Nov/2025:02:58:38 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:28:38 [INFO]: ::1 - - [22/Nov/2025:02:58:38 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:28:38 [INFO]: ::1 - - [22/Nov/2025:02:58:38 +0000] "GET /api/vehicles HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:28:38 [INFO]: ::1 - - [22/Nov/2025:02:58:38 +0000] "GET /api/vehicles HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:31:54 [INFO]: ::1 - - [22/Nov/2025:03:01:54 +0000] "GET /api/vehicles HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:31:54 [INFO]: ::1 - - [22/Nov/2025:03:01:54 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:32:09 [INFO]: ::1 - - [22/Nov/2025:03:02:09 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:32:09 [INFO]: ::1 - - [22/Nov/2025:03:02:09 +0000] "GET /api/vehicles HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:32:50 [INFO]: ::1 - - [22/Nov/2025:03:02:50 +0000] "GET /api/vehicles HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:32:50 [INFO]: ::1 - - [22/Nov/2025:03:02:50 +0000] "GET /api/vehicles HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:32:50 [INFO]: ::1 - - [22/Nov/2025:03:02:50 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:32:50 [INFO]: ::1 - - [22/Nov/2025:03:02:50 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:32:51 [INFO]: ::1 - - [22/Nov/2025:03:02:51 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:32:51 [INFO]: ::1 - - [22/Nov/2025:03:02:51 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:32:55 [INFO]: ::1 - - [22/Nov/2025:03:02:55 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:32:55 [INFO]: ::1 - - [22/Nov/2025:03:02:55 +0000] "GET /api/vehicles HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:32:55 [INFO]: ::1 - - [22/Nov/2025:03:02:55 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:32:55 [INFO]: ::1 - - [22/Nov/2025:03:02:55 +0000] "GET /api/vehicles HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:33:25 [INFO]: ::1 - - [22/Nov/2025:03:03:25 +0000] "GET /api/vehicles HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:33:25 [INFO]: ::1 - - [22/Nov/2025:03:03:25 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:33:25 [INFO]: ::1 - - [22/Nov/2025:03:03:25 +0000] "GET /api/vehicles HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:33:25 [INFO]: ::1 - - [22/Nov/2025:03:03:25 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:35:40 [INFO]: ::1 - - [22/Nov/2025:03:05:40 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:35:40 [INFO]: ::1 - - [22/Nov/2025:03:05:40 +0000] "GET /api/vehicles HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:37:08 [INFO]: Vehicle created by admin admin@carrental.com: Toyota camry
+2025-11-22 08:37:08 [INFO]: ::1 - - [22/Nov/2025:03:07:08 +0000] "POST /api/vehicles HTTP/1.1" 201 291 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:37:08 [INFO]: ::1 - - [22/Nov/2025:03:07:08 +0000] "GET /api/vehicles HTTP/1.1" 200 6072 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:37:08 [INFO]: ::1 - - [22/Nov/2025:03:07:08 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:37:16 [INFO]: ::1 - - [22/Nov/2025:03:07:16 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:37:16 [INFO]: ::1 - - [22/Nov/2025:03:07:16 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:37:22 [ERROR]: Error 500: column "total_amount" does not exist
+error: column "total_amount" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\dashboard.js:363:20
+2025-11-22 08:37:22 [INFO]: ::1 - - [22/Nov/2025:03:07:22 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 500 446 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:37:22 [INFO]: ::1 - - [22/Nov/2025:03:07:22 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:37:22 [ERROR]: Error 500: column "total_amount" does not exist
+error: column "total_amount" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\dashboard.js:363:20
+2025-11-22 08:37:22 [INFO]: ::1 - - [22/Nov/2025:03:07:22 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 500 446 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:37:23 [INFO]: ::1 - - [22/Nov/2025:03:07:23 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 200 61 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:37:23 [INFO]: ::1 - - [22/Nov/2025:03:07:23 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:37:23 [INFO]: ::1 - - [22/Nov/2025:03:07:23 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:38:28 [ERROR]: Error 500: column "total_amount" does not exist
+error: column "total_amount" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\dashboard.js:363:20
+2025-11-22 08:38:28 [INFO]: ::1 - - [22/Nov/2025:03:08:28 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 500 446 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:38:28 [INFO]: ::1 - - [22/Nov/2025:03:08:28 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:38:28 [INFO]: ::1 - - [22/Nov/2025:03:08:28 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:38:53 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-22 08:38:53 [INFO]: 📖 Environment: development
+2025-11-22 08:38:53 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-22 08:39:04 [INFO]: SIGINT received. Shutting down gracefully...
+2025-11-22 08:39:15 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-22 08:39:15 [INFO]: 📖 Environment: development
+2025-11-22 08:39:15 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-22 08:39:31 [INFO]: SIGINT received. Shutting down gracefully...
+2025-11-22 08:40:30 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-22 08:40:30 [INFO]: 📖 Environment: development
+2025-11-22 08:40:30 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-22 08:40:40 [INFO]: SIGINT received. Shutting down gracefully...
+2025-11-22 08:40:49 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-22 08:40:49 [INFO]: 📖 Environment: development
+2025-11-22 08:40:49 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-22 08:40:59 [INFO]: SIGINT received. Shutting down gracefully...
+2025-11-22 08:41:10 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-22 08:41:10 [INFO]: 📖 Environment: development
+2025-11-22 08:41:10 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-22 08:41:23 [INFO]: SIGINT received. Shutting down gracefully...
+2025-11-22 08:41:33 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-22 08:41:33 [INFO]: 📖 Environment: development
+2025-11-22 08:41:33 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-22 08:41:40 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-22 08:41:40 [INFO]: 📖 Environment: development
+2025-11-22 08:41:40 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-22 08:41:49 [INFO]: ::1 - - [22/Nov/2025:03:11:49 +0000] "GET /health HTTP/1.1" 200 101 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.7019"
+2025-11-22 08:42:57 [INFO]: ::1 - - [22/Nov/2025:03:12:57 +0000] "GET /favicon.ico HTTP/1.1" 404 74 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:43:14 [INFO]: ::1 - - [22/Nov/2025:03:13:14 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 200 78 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:43:14 [INFO]: ::1 - - [22/Nov/2025:03:13:14 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 200 87 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:43:14 [INFO]: ::1 - - [22/Nov/2025:03:13:14 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 200 386 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:43:14 [INFO]: ::1 - - [22/Nov/2025:03:13:14 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:43:14 [INFO]: ::1 - - [22/Nov/2025:03:13:14 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:43:14 [INFO]: ::1 - - [22/Nov/2025:03:13:14 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:43:27 [INFO]: ::1 - - [22/Nov/2025:03:13:27 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:43:27 [INFO]: ::1 - - [22/Nov/2025:03:13:27 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:43:27 [INFO]: ::1 - - [22/Nov/2025:03:13:27 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:43:27 [INFO]: ::1 - - [22/Nov/2025:03:13:27 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:43:29 [INFO]: ::1 - - [22/Nov/2025:03:13:29 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:43:29 [INFO]: ::1 - - [22/Nov/2025:03:13:29 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:43:30 [INFO]: ::1 - - [22/Nov/2025:03:13:30 +0000] "GET /api/reservations/my HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:43:30 [INFO]: ::1 - - [22/Nov/2025:03:13:30 +0000] "GET /api/reservations/my HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:43:32 [INFO]: ::1 - - [22/Nov/2025:03:13:32 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:43:32 [INFO]: ::1 - - [22/Nov/2025:03:13:32 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:43:32 [INFO]: ::1 - - [22/Nov/2025:03:13:32 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:43:32 [INFO]: ::1 - - [22/Nov/2025:03:13:32 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:43:33 [INFO]: ::1 - - [22/Nov/2025:03:13:33 +0000] "GET /api/vehicles HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:43:33 [INFO]: ::1 - - [22/Nov/2025:03:13:33 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:43:33 [INFO]: ::1 - - [22/Nov/2025:03:13:33 +0000] "GET /api/vehicles HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:43:33 [INFO]: ::1 - - [22/Nov/2025:03:13:33 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:44:10 [INFO]: ::1 - - [22/Nov/2025:03:14:10 +0000] "POST /api/auth/login HTTP/1.1" 401 55 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:44:22 [INFO]: User logged in: alice.cooper@email.com
+2025-11-22 08:44:22 [INFO]: ::1 - - [22/Nov/2025:03:14:22 +0000] "POST /api/auth/login HTTP/1.1" 200 464 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:44:22 [INFO]: ::1 - - [22/Nov/2025:03:14:22 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 403 51 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:44:22 [INFO]: ::1 - - [22/Nov/2025:03:14:22 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 403 51 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:44:22 [INFO]: ::1 - - [22/Nov/2025:03:14:22 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 403 51 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:44:22 [INFO]: ::1 - - [22/Nov/2025:03:14:22 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 403 51 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:44:22 [INFO]: ::1 - - [22/Nov/2025:03:14:22 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 403 51 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:44:22 [INFO]: ::1 - - [22/Nov/2025:03:14:22 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 403 51 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:44:28 [INFO]: ::1 - - [22/Nov/2025:03:14:28 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:44:28 [INFO]: ::1 - - [22/Nov/2025:03:14:28 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:44:28 [INFO]: ::1 - - [22/Nov/2025:03:14:28 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:44:28 [INFO]: ::1 - - [22/Nov/2025:03:14:28 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:44:30 [INFO]: ::1 - - [22/Nov/2025:03:14:30 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:44:30 [INFO]: ::1 - - [22/Nov/2025:03:14:30 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:44:31 [INFO]: ::1 - - [22/Nov/2025:03:14:31 +0000] "GET /api/reservations/my HTTP/1.1" 200 797 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:44:31 [INFO]: ::1 - - [22/Nov/2025:03:14:31 +0000] "GET /api/reservations/my HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:44:35 [INFO]: ::1 - - [22/Nov/2025:03:14:35 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 403 51 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:44:35 [INFO]: ::1 - - [22/Nov/2025:03:14:35 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 403 51 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:44:35 [INFO]: ::1 - - [22/Nov/2025:03:14:35 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 403 51 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:44:35 [INFO]: ::1 - - [22/Nov/2025:03:14:35 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 403 51 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:44:35 [INFO]: ::1 - - [22/Nov/2025:03:14:35 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 403 51 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:44:35 [INFO]: ::1 - - [22/Nov/2025:03:14:35 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 403 51 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:48:23 [INFO]: User logged in: admin@carrental.com
+2025-11-22 08:48:23 [INFO]: ::1 - - [22/Nov/2025:03:18:23 +0000] "POST /api/auth/login HTTP/1.1" 200 443 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:48:23 [INFO]: ::1 - - [22/Nov/2025:03:18:23 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 200 386 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:48:23 [INFO]: ::1 - - [22/Nov/2025:03:18:23 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:48:23 [INFO]: ::1 - - [22/Nov/2025:03:18:23 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 200 78 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:48:23 [INFO]: ::1 - - [22/Nov/2025:03:18:23 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 200 87 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:48:23 [INFO]: ::1 - - [22/Nov/2025:03:18:23 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:48:23 [INFO]: ::1 - - [22/Nov/2025:03:18:23 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:48:28 [INFO]: ::1 - - [22/Nov/2025:03:18:28 +0000] "GET /api/vehicles HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:48:28 [INFO]: ::1 - - [22/Nov/2025:03:18:28 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:48:28 [INFO]: ::1 - - [22/Nov/2025:03:18:28 +0000] "GET /api/vehicles HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:48:28 [INFO]: ::1 - - [22/Nov/2025:03:18:28 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:48:36 [INFO]: Vehicle updated by admin admin@carrental.com: ID 11
+2025-11-22 08:48:36 [INFO]: ::1 - - [22/Nov/2025:03:18:36 +0000] "PUT /api/vehicles/11 HTTP/1.1" 200 332 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:50:26 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-22 08:50:26 [INFO]: 📖 Environment: development
+2025-11-22 08:50:26 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-22 08:50:54 [INFO]: ::1 - - [22/Nov/2025:03:20:54 +0000] "GET /health HTTP/1.1" 200 102 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.7019"
+2025-11-22 08:52:28 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-22 08:52:28 [INFO]: 📖 Environment: development
+2025-11-22 08:52:28 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-22 08:52:52 [INFO]: SIGINT received. Shutting down gracefully...
+2025-11-22 08:52:59 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-22 08:52:59 [INFO]: 📖 Environment: development
+2025-11-22 08:52:59 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-22 08:52:59 [INFO]: ::ffff:127.0.0.1 - - [22/Nov/2025:03:22:59 +0000] "GET /health HTTP/1.1" 200 101 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.7019"
+2025-11-22 08:53:12 [INFO]: SIGINT received. Shutting down gracefully...
+2025-11-22 08:54:52 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-22 08:54:52 [INFO]: 📖 Environment: development
+2025-11-22 08:54:52 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-22 08:55:10 [INFO]: ::1 - - [22/Nov/2025:03:25:10 +0000] "GET /favicon.ico HTTP/1.1" 404 74 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:55:23 [INFO]: User logged in: admin@carrental.com
+2025-11-22 08:55:23 [INFO]: ::1 - - [22/Nov/2025:03:25:23 +0000] "POST /api/auth/login HTTP/1.1" 200 443 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:55:23 [INFO]: ::1 - - [22/Nov/2025:03:25:23 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:55:23 [INFO]: ::1 - - [22/Nov/2025:03:25:23 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:55:24 [INFO]: ::1 - - [22/Nov/2025:03:25:24 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:55:24 [INFO]: ::1 - - [22/Nov/2025:03:25:24 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 200 87 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:55:24 [INFO]: ::1 - - [22/Nov/2025:03:25:24 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:55:24 [INFO]: ::1 - - [22/Nov/2025:03:25:24 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:55:44 [INFO]: ::1 - - [22/Nov/2025:03:25:44 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:55:44 [INFO]: ::1 - - [22/Nov/2025:03:25:44 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:55:44 [INFO]: ::1 - - [22/Nov/2025:03:25:44 +0000] "GET /api/branches HTTP/1.1" 200 1394 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:55:44 [INFO]: ::1 - - [22/Nov/2025:03:25:44 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:55:45 [INFO]: ::1 - - [22/Nov/2025:03:25:45 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:55:45 [INFO]: ::1 - - [22/Nov/2025:03:25:45 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:55:46 [INFO]: ::1 - - [22/Nov/2025:03:25:46 +0000] "GET /api/reservations/my HTTP/1.1" 200 36 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:55:46 [INFO]: ::1 - - [22/Nov/2025:03:25:46 +0000] "GET /api/reservations/my HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:55:48 [INFO]: ::1 - - [22/Nov/2025:03:25:48 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:55:48 [INFO]: ::1 - - [22/Nov/2025:03:25:48 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:55:48 [INFO]: ::1 - - [22/Nov/2025:03:25:48 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:55:48 [INFO]: ::1 - - [22/Nov/2025:03:25:48 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:55:50 [INFO]: ::1 - - [22/Nov/2025:03:25:50 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:55:50 [INFO]: ::1 - - [22/Nov/2025:03:25:50 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:55:51 [INFO]: ::1 - - [22/Nov/2025:03:25:51 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:55:51 [INFO]: ::1 - - [22/Nov/2025:03:25:51 +0000] "GET /api/vehicles HTTP/1.1" 200 6069 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:55:51 [INFO]: ::1 - - [22/Nov/2025:03:25:51 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:55:51 [INFO]: ::1 - - [22/Nov/2025:03:25:51 +0000] "GET /api/vehicles HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:56:00 [INFO]: Vehicle updated by admin admin@carrental.com: ID 7
+2025-11-22 08:56:00 [INFO]: ::1 - - [22/Nov/2025:03:26:00 +0000] "PUT /api/vehicles/7 HTTP/1.1" 200 335 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:56:00 [INFO]: ::1 - - [22/Nov/2025:03:26:00 +0000] "GET /api/vehicles HTTP/1.1" 200 6070 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:56:00 [INFO]: ::1 - - [22/Nov/2025:03:26:00 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:56:07 [INFO]: ::1 - - [22/Nov/2025:03:26:07 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:56:07 [INFO]: ::1 - - [22/Nov/2025:03:26:07 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:57:33 [INFO]: 🚀 Car Rental API Server running on port 5000
+2025-11-22 08:57:33 [INFO]: 📖 Environment: development
+2025-11-22 08:57:33 [INFO]: 🔒 CORS enabled for: http://localhost:3000
+2025-11-22 08:58:16 [INFO]: ::1 - - [22/Nov/2025:03:28:16 +0000] "GET /api/reservations/my HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:58:16 [INFO]: ::1 - - [22/Nov/2025:03:28:16 +0000] "GET /api/reservations/my HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:58:18 [INFO]: ::1 - - [22/Nov/2025:03:28:18 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:58:18 [INFO]: ::1 - - [22/Nov/2025:03:28:18 +0000] "GET /api/vehicles?branch_id=&make=&status=all&search= HTTP/1.1" 400 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:58:18 [INFO]: ::1 - - [22/Nov/2025:03:28:18 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:58:18 [INFO]: ::1 - - [22/Nov/2025:03:28:18 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:58:19 [INFO]: ::1 - - [22/Nov/2025:03:28:19 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:58:19 [INFO]: ::1 - - [22/Nov/2025:03:28:19 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:58:19 [INFO]: ::1 - - [22/Nov/2025:03:28:19 +0000] "GET /api/vehicles HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:58:19 [INFO]: ::1 - - [22/Nov/2025:03:28:19 +0000] "GET /api/vehicles HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:58:26 [INFO]: ::1 - - [22/Nov/2025:03:28:26 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:58:26 [INFO]: ::1 - - [22/Nov/2025:03:28:26 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:58:42 [INFO]: ::1 - - [22/Nov/2025:03:28:42 +0000] "GET /api/vehicles HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:58:42 [INFO]: ::1 - - [22/Nov/2025:03:28:42 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:58:42 [INFO]: ::1 - - [22/Nov/2025:03:28:42 +0000] "GET /api/vehicles HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:58:42 [INFO]: ::1 - - [22/Nov/2025:03:28:42 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:59:52 [INFO]: ::1 - - [22/Nov/2025:03:29:52 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:59:52 [INFO]: ::1 - - [22/Nov/2025:03:29:52 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:59:52 [INFO]: ::1 - - [22/Nov/2025:03:29:52 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 200 87 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:59:52 [INFO]: ::1 - - [22/Nov/2025:03:29:52 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:59:52 [INFO]: ::1 - - [22/Nov/2025:03:29:52 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 08:59:52 [INFO]: ::1 - - [22/Nov/2025:03:29:52 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 09:03:53 [INFO]: User logged in: admin@carrental.com
+2025-11-22 09:03:53 [INFO]: ::1 - - [22/Nov/2025:03:33:53 +0000] "POST /api/auth/login HTTP/1.1" 200 443 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 09:03:53 [INFO]: ::1 - - [22/Nov/2025:03:33:53 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 09:03:53 [INFO]: ::1 - - [22/Nov/2025:03:33:53 +0000] "GET /api/dashboard/sales-by-branch HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 09:03:54 [INFO]: ::1 - - [22/Nov/2025:03:33:54 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 09:03:54 [INFO]: ::1 - - [22/Nov/2025:03:33:54 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 09:03:54 [INFO]: ::1 - - [22/Nov/2025:03:33:54 +0000] "GET /api/dashboard/fleet-stats HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 09:03:54 [INFO]: ::1 - - [22/Nov/2025:03:33:54 +0000] "GET /api/dashboard/reservations-trend HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 09:04:42 [INFO]: ::1 - - [22/Nov/2025:03:34:42 +0000] "GET /api/vehicles HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 09:04:42 [INFO]: ::1 - - [22/Nov/2025:03:34:42 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 09:04:42 [INFO]: ::1 - - [22/Nov/2025:03:34:42 +0000] "GET /api/vehicles HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 09:04:42 [INFO]: ::1 - - [22/Nov/2025:03:34:42 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 09:06:40 [INFO]: Vehicle created by admin admin@carrental.com: Test Car 1 Test 1
+2025-11-22 09:06:40 [INFO]: ::1 - - [22/Nov/2025:03:36:40 +0000] "POST /api/vehicles HTTP/1.1" 201 300 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 09:06:40 [INFO]: ::1 - - [22/Nov/2025:03:36:40 +0000] "GET /api/vehicles HTTP/1.1" 200 6425 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 09:06:40 [INFO]: ::1 - - [22/Nov/2025:03:36:40 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 09:08:02 [INFO]: Vehicle updated by admin admin@carrental.com: ID 18
+2025-11-22 09:08:02 [INFO]: ::1 - - [22/Nov/2025:03:38:02 +0000] "PUT /api/vehicles/18 HTTP/1.1" 200 353 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 09:08:02 [INFO]: ::1 - - [22/Nov/2025:03:38:02 +0000] "GET /api/vehicles HTTP/1.1" 200 6438 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 09:08:02 [INFO]: ::1 - - [22/Nov/2025:03:38:02 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 09:08:48 [INFO]: Vehicle deleted by admin admin@carrental.com: ID 18
+2025-11-22 09:08:48 [INFO]: ::1 - - [22/Nov/2025:03:38:48 +0000] "DELETE /api/vehicles/18 HTTP/1.1" 200 129 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 09:08:48 [INFO]: ::1 - - [22/Nov/2025:03:38:48 +0000] "GET /api/vehicles HTTP/1.1" 200 6070 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+2025-11-22 09:08:48 [INFO]: ::1 - - [22/Nov/2025:03:38:48 +0000] "GET /api/branches HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"

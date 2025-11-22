@@ -1,0 +1,215 @@
+2025-11-21 15:16:08 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:16:08 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:16:10 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:16:10 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:16:11 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:16:11 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:16:11 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:16:48 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:16:48 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:16:50 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:16:50 [ERROR]: Error 500: column v.availability does not exist
+error: column v.availability does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\vehicles.js:121:20
+2025-11-21 15:16:50 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:16:50 [ERROR]: Error 500: column v.availability does not exist
+error: column v.availability does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\vehicles.js:121:20
+2025-11-21 15:16:51 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:16:51 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:17:08 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:17:08 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:17:10 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:17:10 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:17:11 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:40:40 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:40:40 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:40:57 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:40:57 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:40:58 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:40:58 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:40:59 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:41:20 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:41:21 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 15:41:22 [ERROR]: Error 500: column "contact_number" does not exist
+error: column "contact_number" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\branches.js:33:20
+2025-11-21 16:11:46 [ERROR]: Error 500: column "total_amount" does not exist
+error: column "total_amount" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\dashboard.js:363:20
+2025-11-21 16:11:46 [ERROR]: Error 500: column "total_amount" does not exist
+error: column "total_amount" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\dashboard.js:363:20
+2025-11-22 08:17:07 [ERROR]: Error 500: column "total_amount" does not exist
+error: column "total_amount" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\dashboard.js:363:20
+2025-11-22 08:17:07 [ERROR]: Error 500: column "total_amount" does not exist
+error: column "total_amount" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\dashboard.js:363:20
+2025-11-22 08:21:42 [ERROR]: Error 500: column "total_amount" does not exist
+error: column "total_amount" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\dashboard.js:363:20
+2025-11-22 08:21:42 [ERROR]: Error 500: column "total_amount" does not exist
+error: column "total_amount" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\dashboard.js:363:20
+2025-11-22 08:22:10 [ERROR]: Error 500: column "total_amount" does not exist
+error: column "total_amount" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\dashboard.js:363:20
+2025-11-22 08:22:10 [ERROR]: Error 500: column "total_amount" does not exist
+error: column "total_amount" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\dashboard.js:363:20
+2025-11-22 08:28:31 [ERROR]: Error 500: column "total_amount" does not exist
+error: column "total_amount" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\dashboard.js:363:20
+2025-11-22 08:28:31 [ERROR]: Error 500: column "total_amount" does not exist
+error: column "total_amount" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\dashboard.js:363:20
+2025-11-22 08:37:22 [ERROR]: Error 500: column "total_amount" does not exist
+error: column "total_amount" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\dashboard.js:363:20
+2025-11-22 08:37:22 [ERROR]: Error 500: column "total_amount" does not exist
+error: column "total_amount" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\dashboard.js:363:20
+2025-11-22 08:38:28 [ERROR]: Error 500: column "total_amount" does not exist
+error: column "total_amount" does not exist
+    at C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\katarivenkatadurga_s\Desktop\Car Rental Application\backend\routes\dashboard.js:363:20
